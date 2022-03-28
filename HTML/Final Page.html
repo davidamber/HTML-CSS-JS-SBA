@@ -20,10 +20,11 @@
     <style>
 
        table, th, td {
-            border: 1px solid black;
+            border: 3px solid black;
             border-collapse: collapse;
-            background-color: white;
+            background-color: #a4d0bd;
             text-align: center;
+            font-size: 20px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -31,26 +32,40 @@
         text-align: center;
         }
         body {
-        background-color: #eeddc7;
+        background-color: #edd2b4;
         font-family: 'Roboto', sans-serif;
         }
         img {
-            margin-left: auto;
-            width: 200px;
-            height: 200px;
-
+            width: 300px;
+            height: 250px;
         }
-        h1, form {
+        #image1 {
+            width: 150px;
+            height: 150px;
+            object-position: ;
+        }
+        #image2 {
+            width: 150px;
+            height: 150px;
+            object-position: ;
+        }
+        #image3 {
+            width: 175px;
+            height: 175px;
+            object-position: ;
+        }
+        h1 {
             text-align: center;
+            font-size: 70px;
         }
 
     </style>
 </head>
 <body><br>
 <div class="container">
-    <img src="Images/coffeebanner.png" alt="coffee image">
+    <img src="Images/coffeebanner.png"><br>
     <h1>Here's your brew!</h1><br>
-        <table class="center" style="width:50%">
+        <table class="center" style="width:70%">
             <tr>
                 <th>Coffee Amount</th>
                 <th>Water Amount</th>
@@ -63,5 +78,8 @@
             </tr>
         </table>
 </div>
+<img id="image1" src="images/coffeebean.png">
+<img id="image2" src="images/water.png" alt="">
+<img id="image3" src="images/coffeegrinder.png">
 </body>
 </html>
