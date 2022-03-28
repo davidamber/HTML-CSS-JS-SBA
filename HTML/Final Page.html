@@ -18,8 +18,17 @@
 
     <title></title>
     <style>
-         {
 
+       table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: white;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container {
+        text-align: center;
         }
         body {
         background-color: #eeddc7;
@@ -38,15 +47,21 @@
     </style>
 </head>
 <body><br>
-<img src="images/coffeebanner.png">
-<h1>Here's your brew!</h1><br>
-<form>
-    <label for="coffee">Coffee Amount:</label><br>
-    <input type="text" id="coffee" name="coffee"><br>
-    <label for="water">Water Amount:</label><br>
-    <input type="text" id="water" name="water"><br>
-    <label for="grind">Grind Size:</label><br>
-    <input type="text" id="grind" name="water"><br><br>
-</form>
+<div class="container">
+    <img src="images/coffeebanner.png" alt="coffee image">
+    <h1>Here's your brew!</h1><br>
+        <table class="center" style="width:50%">
+            <tr>
+                <th>Coffee Amount</th>
+                <th>Water Amount</th>
+                <th>Grind Size</th>
+            </tr>
+            <tr>
+                <td>17g</td>
+                <td>100g</td>
+                <td>Medium</td>
+            </tr>
+        </table>
+</div>
 </body>
 </html>
