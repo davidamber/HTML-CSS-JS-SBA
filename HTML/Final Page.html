@@ -13,13 +13,15 @@
 
     <link rel="stylesheet" href="/style.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
     <title></title>
     <style>
 
        table, th, td {
+            table-layout: fixed;
             border: 3px solid black;
             border-collapse: collapse;
             background-color: #a4d0bd;
@@ -28,8 +30,12 @@
             margin-left: auto;
             margin-right: auto;
         }
+        th {
+            background-color: #9ab0a6;
+        }
         .container {
-        text-align: center;
+            text-align: center;
+
         }
         body {
         background-color: #edd2b4;
@@ -38,25 +44,25 @@
         img {
             width: 300px;
             height: 250px;
+            padding: 10px;
         }
         #image1 {
             width: 150px;
             height: 150px;
-            object-position: ;
         }
         #image2 {
             width: 150px;
             height: 150px;
-            object-position: ;
         }
         #image3 {
             width: 175px;
             height: 175px;
-            object-position: ;
         }
         h1 {
             text-align: center;
-            font-size: 70px;
+            font-size: 65px;
+            border-style: ;
+
         }
 
     </style>
@@ -78,8 +84,5 @@
             </tr>
         </table>
 </div>
-<img id="image1" src="images/coffeebean.png">
-<img id="image2" src="images/water.png" alt="">
-<img id="image3" src="images/coffeegrinder.png">
 </body>
 </html>
