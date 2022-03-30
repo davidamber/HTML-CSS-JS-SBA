@@ -26,7 +26,7 @@
       font-size: 60px;
     }
     h2 {
-      font-size: 24px;
+      font-size: 22px;
     }
     body {
       background-color: #edd2b4;
@@ -42,37 +42,19 @@
     input {
       background-color: #a4d0bd;
     }
-    .container1 {
-      display: flex;
-      background-color: white;
-      float: left;
-      align-content: ;
-      padding: 30px;
-      height: 400px;
-      width: 30%;
-    }
-    .container2 {
-      display: ;
-      background-color: white;
-      float: right;
-      align-content: ;
-      padding: 30px;
-      height: 400px;
-      width: 30%;
-    }
     .form1 {
       text-align: center;
     }
     #submit {
-        font-size: 28px;
+        font-size: 24px;
     }
     #dropdown {
         background-color: ;
     }
-    .sub-container{
+    .sub-container {
         text-align: center;
     }
-    .col{
+    .col {
     margin: auto;
     background-color: ;
     }
@@ -80,9 +62,9 @@
   </style>
 </head>
 <body class="container">
-<h1>Tell us a little about yourself:</h1>
+<h1>Tell us a little about yourself.</h1><br><br>
 <div class="sub-container row">
-    <div class="col">
+    <div class="col-lg-6">
         <h2>Personal Information</h2>
         <form class="form1">
             <label for="fname">First Name:</label><br>
@@ -95,7 +77,7 @@
             <input type="text" id="password" name="password"><br>
         </form>
     </div>
-    <div class="col">
+    <div class="col-lg-6">
         <h2>Preferred Coffee Method:</h2>
         <div class="dropdown">
             <button class="btn btn-light btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -117,8 +99,6 @@
             <input type="submit" class="btn btn-secondary btn-lg btn-light" id="submit">
         </form>
     </div>
-
-
 </div>
 
 </body>
