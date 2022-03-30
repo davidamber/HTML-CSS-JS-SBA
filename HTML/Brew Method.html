@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:margin="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <!-- Required meta tags -->
@@ -54,7 +54,8 @@
         background-color: #9ab0a6;
     }
     .form-check {
-
+        display:inline-block;
+        margin:0 110px 0 110px;
     }
     </style>
 </head>
@@ -69,7 +70,7 @@
             <img src="Images/noun-chemex-385874.png" alt="chemex" style="width:75%">
         </div>
         <div class="column">
-            <img src="Images/frenchpress.png" alt="french press" style="width:75%">
+            <img src="Images/frenchpress.png" alt="french press" style="width:75%" >
         </div>
         <div class="column">
             <img src="Images/aeropress.png" alt="aeropress" style="width:75%">
@@ -79,23 +80,24 @@
 
 
 <form>
-    <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <div class="form-check form-check-inline" style="" >
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" style="">
         <label class="form-check-label" for="inlineRadio1">Coffee Machine</label>
     </div>
-    <div class="form-check form-check-inline">
+    <div class="form-check form-check-inline" style="align-items: center">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
         <label class="form-check-label" for="inlineRadio2">Pour-over</label>
     </div>
-    <div class="form-check form-check-inline">
+    <div class="form-check form-check-inline" style="align-items: center">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
         <label class="form-check-label" for="inlineRadio2">French Press</label>
     </div>
-    <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option4">
+    <div class="form-check form-check-inline" style="align-items: center">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadi40" value="option4">
         <label class="form-check-label" for="inlineRadio2">Aeropress</label>
     </div><br><br>
     <button type="button" class="btn btn-secondary btn-lg btn-light">Continue</button><br><br>
 </form>
+
 </body>
 </html>
